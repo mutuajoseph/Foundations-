@@ -1,0 +1,144 @@
+<!-- Tells the  browser that this file is a HTML 5 document -->
+<!doctype html>
+
+<!-- The root element of the HTML document -->
+<html lang="en">
+  <!-- The head element contains meta-information about the document -->
+  <head>
+    <title>WEB 101 </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML Tutorial">
+    <meta name="keywords" content="HTML, Learn, Tutorial">
+    <meta name="author" content="programiz team">
+
+    <!-- linking CSS file to my HTML file -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        p {
+          color: red;
+        }
+
+        h1 {
+          color: blue;
+        }
+    </style>
+  </head>
+
+  <!-- The body element contains the content of the document -->
+  <body>
+    <!-- Add inline css -->
+    <h1 style="color: brown; text-decoration: underline;">Welcome to My First Web Page</h1>
+    <p class="first">This is a paragraph of text on my <strong>first web page</strong>.</p>
+    <p>This is another paragraph of <br />text on my first web page.</p>
+
+    <!-- Headings -->
+
+    <h1>This is heading 1.</h1>
+    <h2>This is heading 2.</h2>
+    <h3>This is heading 3.</h3>
+    <h4>This is heading 4.</h4>
+    <h5>This is heading 5.</h5>
+    <h6>This is heading 6.</h6>
+
+    <!-- Heading are block level elements -->
+    <h1>Headings</h1>
+    <h2>are</h2>
+    <h3>fun!</h3>
+
+    <!-- This is a comment to be addressed -->
+
+    <!-- THIS IS A TABLE -->
+
+    <table border="1" id="myTable">
+      <thead>
+        <tr>
+          <th>Header One</th>
+          <th>Header Two</th>
+          <th>Header Three</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Data One</td>
+          <td>Data Two</td>
+          <td>Data Three</td>
+        </tr>
+
+        <tr>
+          <td>Data Four</td>
+          <td>Data Five</td>
+          <td>Data Six</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Footer One</td>
+          <td>Footer Two</td>
+          <td>Footer Three</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- HTML LIST -->
+
+    <!-- unordered List  -->
+    <ul class="myList">
+      <li>Apple</li>
+      <li>Orange</li>
+      <li>Mango</li>
+    </ul>
+
+    <!-- ordered List  -->
+
+    <ol>
+      <li>Ready</li>
+      <li>Set</li>
+      <li>Go</li>
+    </ol>
+
+    <!-- description List  -->
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language for creating web pages structure.</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets for styling web pages.</dd>
+      <dt>JS</dt>
+      <dd>JavaScript is a reactive programming language.</dd>
+    </dl>
+
+    <!-- HTML LINKS -->
+
+    <a class="link" href="https://www.programiz.com/swift-programming/continue-statement">
+      Swift Continue Statement
+    </a>
+
+    <a href="https://www.programiz.com" target="_blank">
+      <img src="https://cdn-1.webcatalog.io/catalog/programiz/programiz-social-preview.png?v=1714775555200" alt="Programiz Logo" />
+    </a>
+
+    <a href="/files/logo.png" download> Download Image </a>
+
+    <!-- HTML FORM -->
+
+    <form>
+      <label for="firstName">First Name: </label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name: </label>
+      <input type="text" id="lastName" name="lastName">
+
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

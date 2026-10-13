@@ -1,0 +1,85 @@
+body {
+    background: url('https://images.unsplash.com/photo-1791188210902-b7097efa300a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* GROUP SELECTOR - WE USE A , */
+h1, h2, h3, h4, h5, h6 {
+    color: brown;
+    text-decoration: underline;
+}
+
+/* ID SELECTOR - WE USE A # */
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightblue;
+}
+
+/* CLASS SELECTOR - WE USE A . */
+
+.myList {
+    list-style-type: square;
+    color: darkgreen;
+}
+
+/* UNIVERSAL SELECTOR - WE USE A * */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0.2px solid black;
+    box-sizing: border-box;
+}
+
+
+/* ATTRIBUTE SELECTOR - WE USE A [attribute] */
+
+p[class="first"] {
+    font-size: 20px;
+    color: green;
+}
+
+/* Pseudo class selectors - WE USE A :pseudo-class */
+
+.link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Pseudo element selectors - WE USE A ::pseudo-element */
+
+p::first-letter {
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* CSS FONTS */
+
+/* body  {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    line-height: 30px;
+} */
+
+/* CSS TEST FORMATING */
+
+li { 
+    text-decoration:underline;
+    text-transform: none;
+    letter-spacing: 0.5em;
+}
+
+p {
+    word-spacing: 20px;
+    text-indent: 60px;
+    text-shadow: 1px 1px 2px rgb(14, 13, 13);
+    text-align: justify;
+}
+
