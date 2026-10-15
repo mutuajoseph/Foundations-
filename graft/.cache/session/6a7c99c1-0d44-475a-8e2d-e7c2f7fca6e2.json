@@ -1,0 +1,12 @@
+{
+  "lastQuery": "<ide_opened_file>The user opened the file /Users/wamzy/Desktop/Foundations/week-one/first-web-page/index.js in the IDE. This may or may not be related to the current task.</ide_opened_file>\nim trying to push my changes to github mutuajoseph but im connected to joseph-faro \n\nsee error: \n\n<pasted_content id=\"5327\">\ngit push -u origin main \nremote: Permission to mutuajoseph/Foundations-.git denied to joseph-faro.\nfatal: unable to access 'https://github.com/mutuajoseph/Foundations-.git/': The requested URL returned error: 403\nJosephs-MacBook-Pro-2:Foundations wamzy$\n</pasted_content id=\"5327\">",
+  "perAgentQuery": {},
+  "graftReads": 0,
+  "sourceReads": 0,
+  "savedTokens": 0,
+  "injectedPointers": [],
+  "nudges": 0,
+  "inputCostMicros": 383940,
+  "inputTokensBilled": 169618,
+  "lastBillingUuid": "6d810de9-ac89-43af-b4dd-4fb3f2185e0a"
+}
