@@ -172,3 +172,93 @@ console.log("Is a greater than or equal to b? " + (a >= b)); // prints true beca
 // and returns true if the left operand is less than or equal to the right operand, and false if it is not.
 console.log("Is a less than or equal to b? " + (a <= b)); // prints true because 10 is equal to "10
 
+// LOGICAL OPERATORS - They are used to combine multiple conditions 
+// and return a boolean value(true or false). They include: &&, ||, !
+
+/* 
+ this is a multiline comemnt s
+ skdjvksdj vkjd
+ sdjvskjdvnef
+ sdvsfbver
+ sdvf
+*/
+
+let c = 5;
+let d = 10;
+console.log("Is c less than d and a greater than b? " + (c < d && a > b)); // prints false because a is not greater than b
+console.log("Is c less than d or a greater than b? " + (c < d || a > b)); // prints true because c is less than d
+console.log("Is c less than d and not a greater than b? " + (c < d && !(a > b))); // prints true because c is less than d and a is not greater than b
+
+
+// TYPE CONVERSION  
+// implicit type conversion - JavaScript automatically converts one data type to another when performing operations on different data types. This is also known as type coercion.
+// convert number to string
+result = "3" + 2; 
+console.log(result, "-", typeof(result));
+
+// convert string to number
+result = true + "3"; 
+console.log(result, "-", typeof(result));
+
+// Eplicit type conversion - JavaScript provides several methods to explicitly convert one data type to another. This is also known as type casting.
+
+let results;
+
+// convert string to number
+results = Number("5");
+console.log(results, "-", typeof(result));
+
+// convert boolean to string
+results = String(true);
+console.log(results, "-", typeof(result));
+
+// convert number to boolean
+results = Boolean(0);
+console.log(results, "-", typeof(result));
+
+
+
+// Given a number, write a JavaScript program to check if its even or odd 
+
+let number = 8;
+
+if (number % 2 === 0){ 
+    console.log(number + " is even.");
+} else {
+    console.log(number + " is odd.");
+}
+
+
+// Given five subjects, write a JavaScript program to calculate the average marks and 
+// grade of a student based on the following criteria:
+// Average >= 90: Grade A
+// Average >= 80 and < 90: Grade B
+// Average >= 70 and < 80: Grade C
+// Average >= 60 and < 70: Grade D
+// Average < 60: Grade F
+
+let totalMarks; 
+
+let subjectOne = 85;
+let subjectTwo = 90;
+let subjectThree = 78;
+let subjectFour = 92;
+let subjectFive = 88;
+
+totalMarks = subjectOne + subjectTwo + subjectThree + subjectFour + subjectFive;
+
+let averageMarks = totalMarks / 5;
+
+console.log("Average Marks: " + averageMarks);
+
+if (averageMarks >=90){ 
+    console.log("Grade: A");
+} else if (averageMarks >=80 && averageMarks < 90) {
+    console.log("Grade: B");
+} else if (averageMarks >=70 && averageMarks < 80) {
+    console.log("Grade: C");
+} else if (averageMarks >=60 && averageMarks < 70) {
+    console.log("Grade: D");
+} else {
+    console.log("Grade: F");
+}
