@@ -19,6 +19,20 @@ class Person {
     greet() {
         console.log(`${this.name} said hello`)
     }
+
+    sendMoneyAndConfirm() {
+        console.log("Entern you bank details")
+        
+        this.#bankDetails()
+
+        console.log("Sending money.... ")
+        console.log("Money sent ")
+    }
+
+    #bankDetails(){
+        console.log(`Acccount number: ${10000000}`)
+        console.log(`Password: ${1111}`)
+    }
 }
 
 class Student extends Person {
@@ -55,6 +69,8 @@ studentOne.greet()
 studentOne.study()
 studentTwo.doHomework()
 console.log(studentOne.age)
+studentTwo.sendMoneyAndConfirm()
+
 
 
 // PRINCIPLES OF OOP 
@@ -63,7 +79,7 @@ console.log(studentOne.age)
 // This allows us to reuse common logic and to model real-world relationships
 
 
-// 2. Abstraction 
+// 2. Abstraction - 
 // 3. Polymorphism 
 // 4. Encapsulation 
 
