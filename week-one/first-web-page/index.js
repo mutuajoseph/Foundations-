@@ -262,3 +262,92 @@ if (averageMarks >=90){
 } else {
     console.log("Grade: F");
 }
+
+
+
+// FOR LOOP - A for loop is used to repeat a block of code a certain number of times. It consists of three parts: initialization, condition, and increment/decrement.
+
+// Write a program that prints out natural number from 1 to 100
+
+for (let x = 1; x <= 100; x++) {
+    console.log(x);
+}
+
+
+// using the while loop display number one to 5 
+
+let i = 1; 
+
+while (i <= 5) {
+    console.log(i);
+    i++;
+}
+
+// using the do while loop display numbers 3 to 1 
+
+let j = 3; 
+
+do {
+    console.log(j);
+    j--;
+} while (j >= 1)
+
+
+// using a for loop and and if statement explain the break keyword in javascript
+
+for (let k = 1; k <= 10; k++) {
+    if (k === 5) {
+        console.log("Breaking the loop at k = " + k);
+        break; // The break statement terminates the loop when k equals 5
+    }
+    console.log(k);
+}
+
+// using a for loop and and if statement explain the continue keyword in javascript
+
+for (let m = 1; m <= 10; m++) {
+    if (m === 5) {
+        console.log("Skipping the iteration at m = " + m);
+        continue; // The continue statement skips the current iteration when m equals 5
+    }
+    console.log(m);
+}
+
+// SWITCH STATEMENTS
+
+let day = 10; 
+let activity;
+
+switch (day) {
+
+    case 1:
+        console.log("Sunday");
+        break;
+
+    case 2:
+        console.log("Monday");
+        break;
+
+    case 3:
+        console.log("Tuesday");
+        break;
+
+    case 4:
+        console.log("Wednesday");
+        break;
+
+    case 5:
+        console.log("Thursday");
+        break;
+
+    case 6:
+        console.log("Friday");
+        break;
+
+    case 7:
+        console.log("Saturday");
+        break;
+
+    default:
+        console.log("Invalid Day");
+}
