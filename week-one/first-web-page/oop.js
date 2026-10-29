@@ -8,6 +8,7 @@ class Person {
         this.age = age;
         this.nationality = nationality
         this.occupation = occupation
+        this._hobbies = []
     }
 
     // methods
@@ -32,6 +33,15 @@ class Person {
     #bankDetails(){
         console.log(`Acccount number: ${10000000}`)
         console.log(`Password: ${1111}`)
+    }
+
+    // Encapsulation - for use to update the hobbies we need to invoke the methos associated
+    setHobbies (hobbies){
+        this._hobbies = hobbies
+    }
+
+    getHobbies() {
+        return this._hobbies
     }
 }
 
@@ -77,9 +87,14 @@ studentTwo.sendMoneyAndConfirm()
 
 // 1. Inheritance  - Inheritance makes all properties and methods available to a child class. 
 // This allows us to reuse common logic and to model real-world relationships
-
-
 // 2. Abstraction - 
+
+
 // 3. Polymorphism 
 // 4. Encapsulation 
+
+studentOne.setHobbies(["Swimming", "Reading", "Painting"])
+
+let result = studentOne.getHobbies()
+console.log(result)
 

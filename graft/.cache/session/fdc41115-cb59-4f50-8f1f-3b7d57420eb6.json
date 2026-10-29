@@ -1,0 +1,13 @@
+{
+  "lastQuery": "<ide_selection>The user selected the lines 26 to 26 from /Users/wamzy/Desktop/Foundations/week-one/first-web-page/oop.js:\nthis.#bankDetails()\n\nThis may or may not be related to the current task.</ide_selection>\nlests push the commits please",
+  "perAgentQuery": {},
+  "graftReads": 0,
+  "sourceReads": 0,
+  "savedTokens": 0,
+  "injectedPointers": [],
+  "nudges": 0,
+  "inputCostMicros": 420533,
+  "inputTokensBilled": 256947,
+  "lastBillingUuid": "b9a5bbf5-745a-4af7-91cf-7fc22a45735b",
+  "summarized": true
+}
